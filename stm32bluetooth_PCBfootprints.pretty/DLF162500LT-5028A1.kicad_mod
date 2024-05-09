@@ -1,0 +1,136 @@
+(footprint "DLF162500LT-5028A1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3132036d-e0de-493d-ad08-332d2673b32a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DLF162500LT-5028A1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70b778a6-e393-4338-91e6-04c0c8a7ad71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bfd5eb5-6e5e-4852-b7d9-8c279d9bfd3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3ccf68b-72b1-4e13-8cd0-74d5408415c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecbe2bed-ebe7-4114-b9ac-79bb36e8a8a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.1 0)
+		(end -0.958579 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7e056994-a138-4c55-92a5-2b101d9cc0bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20180030-2aca-4eb8-9830-5248be9f1c50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.6125 0)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d5433988-c2f8-465d-890c-1c1d3efb5b63")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.2275)
+		(size 0.45 0.245)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9bb07a5f-1217-4776-8ca5-0c6cf80c75ad")
+	)
+	(pad "3" smd roundrect
+		(at 0.6125 0)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7e7c1a6c-d72f-45cb-a653-039138db0b48")
+	)
+	(pad "4" smd roundrect
+		(at 0 -0.2275)
+		(size 0.45 0.245)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e23fccf8-4df6-4c6c-99bf-16da26ec8399")
+	)
+	(model "${KIPRJMOD}/stm32bluetooth_PCBfootprints.pretty/DLF162500LT-5028A1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
